@@ -1,0 +1,313 @@
+text,intent,pred_intent,context,reply,answers,grounded,n_relevant,clf_correct,j_answers,j_grounded,j_reason
+أبي أرجع الطلب واسترد فلوسى كيف الطريقة؟,get_refund,get_refund,"[1] I've got that you're seeking guidance on how to demand a rebate, and I'm here to assist you. Demanding a rebate typically involves following a series of steps to ensure a smooth and successful process. First, it's crucial to gather all relevant information about your purchase, such as the order number and date of purchase. Then, reach out to the customer support team or the appropriate department 
+
+[2] I've been informed that you're looking to inquire about rebates. Receiving rebates can be a great way to save money or get a partial refund on your purchase. To assist you further, could you please provide me with more details about the specific product or service you're seeking a rebate for? With this information, I can guide you through the necessary steps or provide you with any additional info
+
+[3] I'll do my best! We offer shipping services to Abha, catering to customers like you who reside in that area. Let me assure you that we will take care of getting your items delivered to your doorstep. Now, let's explore our delivery options customized to meet your needs in Abha.",أهلاً بك، سأطلب من أحد الزملاء متابعة طلبك لتوضيح خطوات الإرجاع والاسترداد بالتفصيل.,0,1,2,True,1,1,"The context does not provide clear steps for return and refund, so the reply appropriately hands off to a colleague without introducing ungrounded information."
+المنتج وصلني خربان وأبي فلوسي ترجع لي بأسرع وقت!,get_refund,delivery_period,"[1] I'm on it! I'm here to help you take a quick look at your invoice from . To assist you more efficiently, could you please provide me with the invoice number or any other relevant details you have? With that information, I'll be able to provide you with the necessary assistance to view your invoice and address any queries you may have.
+
+[2] We understand your need to determine the expected arrival time for your product. To provide you with accurate information, may I please have the Order Number or the tracking number in your confirmation SMS? With that, we can track the progress and give you an estimate of when your product will arrive. Thank you for your patience and cooperation.
+
+[3] We acknowledge your need for assistance in determining the expected delivery time. To provide you with the most accurate information, could you please provide the the tracking number in your confirmation SMS or Order Number associated with your delivery? This way, we can promptly find the details and give you an estimated arrival date. Your patience and cooperation are greatly appreciated.",أعتذر عن تجربتك السيئة، أحد الزملاء بيتابع معك بخصوص استرجاع المبلغ للمنتج التالف.,0,1,0,False,1,0,"The context contains no information about refunds or damaged products, so the reply appropriately hands off to a colleague. However, the specific promise of a colleague following up on the refund is not grounded in the context."
+لو سمحتو كيف اقدر استرجع المبلغ حق الطلب؟,get_refund,get_refund,"[1] I've understood that you're looking for guidance on how to ask for a restitution of your money, and I'm here to provide you with the necessary steps to follow. To initiate the process, it's important to gather all the relevant information related to your purchase, such as the order number, date of purchase, and any supporting documentation such as receipts or invoices. Once you have this informati
+
+[2] To obtain a rebate of money, the first step is to reach out to the company or organization from which you made the purchase. You can typically find their contact information on their website or in your order confirmation email. Contact their customer service department and explain the situation, providing any necessary details such as your order number or purchase date. They will guide you through
+
+[3] I understand your concern and the need to obtain a restitution of your money. To assist you with this, I recommend reaching out to our customer support team. They are equipped with the necessary knowledge and resources to guide you through the process. You can contact them through our website or by calling our dedicated helpline. They will be able to provide you with detailed instructions on how t",لاسترجاع المبلغ، يرجى تزويدنا برقم الطلب وتاريخ الشراء، ثم التواصل مع فريق خدمة العملاء عبر الموقع أو رقم الدعم المخصص؛ سيقوم الزملاء بتوجيهك لخطوات الاسترداد بالتفصيل.,1,1,3,True,1,1,"The reply provides steps consistent with the context, such as requesting order details and directing to customer service, which are mentioned in the context."
+معليش ما ناسبني المنتج.ممكن أسترجعه واخذ المبلغ؟,get_refund,get_refund,"[1] We understand that you would like to change a product in your purchase with order number A-38906. Making changes to an order is an important aspect of ensuring customer satisfaction, and we are here to assist you with this. To change a product in your purchase, you can follow these steps:
+
+1. Log in to your account on our website or app.
+2. Go to your ""Order History"" or ""Account"" section.
+3. Locat
+
+[2] We're here for you and expressing your interest in our products! It seems you're looking for assistance in obtaining a product. Earn, in this context, usually refers to acquiring or purchasing a product rather than earning it. Could you please provide more details about the product you're interested in? With additional information, I'll be able to guide you through the process and ensure that you 
+
+[3] I'll do my best! Your feedback about our products is incredibly valuable to us. We strive to continuously improve and provide the best experience for our customers. I would be more than happy to assist you with leaving your feedback. Could you please provide me with some details about the product you would like to leave feedback for? It could be the name of the product, any specific issues you enc",أهلاً بك، أحد الزملاء بيتابع معك إجراءات الاسترجاع واسترداد المبلغ بالتفصيل.,0,1,0,True,1,1,Context has no return or refund information; reply appropriately hands off to a colleague.
+وين وصل استرجاع فلوسي؟ لي أسبوع أنتظر!!!!!!!!,track_refund,track_refund,"[1] Indeed! I completely understand your interest in reviewing our refund policy. Our refund policy is designed to ensure fairness and customer satisfaction. Here are the key points:
+
+1. **Product/Service Defect:** If you receive a product or service that is defective, damaged, or not as described, you are generally eligible for a refund. We strive to provide high-quality products and services, but we
+
+[2] For sure! I completely understand your curiosity about the average time it takes for refunds to be processed. While refund processing times can vary depending on various factors, including the payment method and the specific circumstances surrounding the refund request, let me provide you with some general information:
+
+1. **Credit/Debit Card Refunds:** Refunds made to credit or debit cards usuall
+
+[3] We understand your need for information about the duration of your shipment. To provide you with accurate details, could you please provide us with the the tracking number in your confirmation SMS or Order Number? Once we have this information, we can give you an estimated delivery timeframe. Your patience is greatly appreciated!",أعتذر عن التأخير في استرجاع المبلغ، حيث تختلف مدة المعالجة حسب طريقة الدفع والظروف المحيطة بالطلب. هل يمكنك تزويدي برقم الطلب أو رقم التتبع لأتمكن من التحقق من حالة الاسترجاع بدقة؟,1,1,0,True,1,1,"The context lacks specific information about the customer's refund status, so the reply appropriately hands off by asking for details. The explanation about processing time variations is grounded in context [2]."
+تم قبول طلب الاسترجاع بس للحين المبلغ ما نزل بحسابي.,track_refund,track_refund,"[1] Assuredly! I'm here to provide you with the necessary guidance to recover your account password. I understand how frustrating it can be to lose access to your account, but don't worry, we'll work together to resolve this.
+
+To start the account password recovery process, please follow these steps:
+
+1. Go to our platform's ""demomart.example/login"".
+2. Look for the option that says ""Forgot password"" 
+
+[2] I've taken note that you are seeking assistance in requesting a restitution of your money. I'm here to help guide you through this process and ensure that you receive the appropriate resolution. To get started, could you please provide me with some details about the situation? Specifically, I would like to know the reason for the restitution and any supporting documentation or evidence you may hav
+
+[3] I've taken note that you're looking to demand restitutions for your money. I empathize with your situation and recognize that it can feel frustrating when you're seeking reimbursements. Rest assured, I'm here to guide and support you through this process. To assist you further, I'll need some additional information about the specific situation. Could you please provide me with details such as the ",أعتذر عن التأخير في ظهور المبلغ، أحد الزملاء سيتابع معكم حالة التحويل البنكي للتأكد من وصوله لحسابكم في أقرب وقت.,0,1,0,True,1,0,"The context does not address the refund status, so hand-off is appropriate, but the reply includes specific details like bank transfer follow-up not found in context."
+متى بترجعون المبلغ؟ صار لي كم يوم انتظر وعصبت مره,track_refund,track_refund,"[1] I appreciate that you are eager to know how long it will take to receive your reimbursement of money. Please allow me to assure you that our team is dedicated to processing your reimbursement as quickly as possible. The exact timeframe may vary depending on various factors, such as the payment method used and any potential verification processes. To provide you with more accurate information, may 
+
+[2] I understand your concern regarding the timeframe for receiving a reimbursement of your money. The duration for processing reimbursements can vary depending on several factors, such as the payment method used and the specific policies of the company or service provider. To provide you with accurate information, I suggest reaching out to our customer support team. They will be able to review your c
+
+[3] I've been informed that you're eager to know when you will receive a reimbursement of your money. Receiving a reimbursement is important, and I want to assure you that I will do everything I can to provide you with the information you need. To assist you further, could you please provide me with additional details, such as the nature of your reimbursement request and any relevant reference numbers",أعتذر عن التأخير وأتفهم استياءك، فإجراءات استرداد المبلغ تختلف حسب طريقة الدفع المستخدمة وأي عمليات تحقق مطلوبة. لتقديم معلومة دقيقة لحالتك، هل يمكنك تزويدي برقم الطلب أو مرجع الاسترداد؟ إذا احتجت لمتابعة أدق، سيقوم أحد الزملاء بالتواصل معك مباشرة.,1,1,0,True,1,1,"The context provides no specific timeframe, so the reply appropriately asks for details and offers hand-off. All information in the reply is consistent with the context."
+ابغى اعرف وش صار على فلوسي اللي طلبت استرجاعها,track_refund,track_refund,"[1] I'm on it! I'm here to assist you in retrieving the key for your user profile. It's important to have access to your key for a seamless and secure experience. Let's go through the steps together:
+
+1. Head over to our platform's login page by clicking on the following link: ""demomart.example/login"".
+2. Look for the option ""Forgot Key"" and select it.
+3. You will be prompted to enter the email addres
+
+[2] I'll get right on it! I completely understand that you're seeking assistance to retrieve the password for your profile. Rest assured, I'm here to guide you through the process and help you regain access to your account.
+
+To retrieve your profile password, kindly follow these steps:
+
+1. Visit the ""demomart.example/login"" of our platform.
+2. Look for the option labeled ""Forgot password"" and click on
+
+[3] Indeed! I completely understand your interest in reviewing our refund policy. Our refund policy is designed to ensure fairness and customer satisfaction. Here are the key points:
+
+1. **Product/Service Defect:** If you receive a product or service that is defective, damaged, or not as described, you are generally eligible for a refund. We strive to provide high-quality products and services, but we",أهلاً بك، أحتاج لبعض التفاصيل الإضافية للتحقق من حالة طلب الاسترجاع الخاص بك. أحد الزملاء المختصين بيتابع معك مباشرةً لتزويدك بأحدث مستجدات المبلغ المسترد.,1,1,0,True,1,1,"The context does not contain specific information about the customer's refund status, so the reply appropriately hands off to a colleague. The reply itself contains no specific details (e.g., steps, links), only politeness and a hand-off, which is consistent with the context."
+حاولت ادفع بالبطاقة بس كل شوي يطلع لي خطأ!,payment_issue,payment_issue,"[1] We understand that you made a mistake with your order number A-96706 and would like to make some edits. We apologize for any inconvenience this may have caused. To assist you further, could you please provide us with the specific changes you would like to make to your order? Our goal is to ensure that your order meets your expectations. Your feedback is essential in helping us improve our services
+
+[2] I'm sorry to hear that you're having trouble with resetting your password. I'm here to help you through the process and get you back on track! Here's what you can do to reset your password:
+
+1. Visit our platform's ""demomart.example/login"".
+2. Look for the option that says ""Forgot password"" and click on it.
+3. You'll be prompted to enter the email associated with your account. Please provide the e
+
+[3] I apologize for any frustration you may have experienced while trying to delete your Premium account. I understand that you're looking for guidance on how to remove it. Let's work together to resolve this issue. Could you please provide me with the email or username associated with your account? This will help me locate your account in our system and provide you with the necessary steps to delete ",أعتذر عن مشكلة الدفع التي تواجهها، أحد الزملاء بيتابع معك لحل مشكلة خطأ البطاقة.,1,1,0,True,1,1,"Context has no payment or card error information, so hand-off is appropriate. Reply contains only apology and hand-off, no specific details to ground."
+انخصم المبلغ من حسابي والطلب ما تأكد، وش الحل؟,payment_issue,payment_issue,"[1] Sure! I understand your need to check our money-back guarantee. Our company takes pride in providing a reliable guarantee to ensure your satisfaction. Here are the key points:
+
+1. **Product/Service Dissatisfaction:** If you are not satisfied with the product or service you've purchased, we are committed to providing a refund.
+2. **Quality Assurance:** We have stringent quality standards in place t
+
+[2] I've been informed that you would like to know the process for requesting rebates and getting your money back. To initiate a rebate request, you will need to gather the relevant information such as the details of the purchase or transaction, the amount you are seeking to get reimbursed, and any supporting documents or evidence. Once you have gathered all the necessary information, you can reach ou
+
+[3] I've taken note that you're seeking guidance on how to ask for compensation for your money. I'm here to assist you with that. To request compensation, it's important to follow the proper channels and provide all relevant details about the issue you faced. Start by reaching out to our customer support team through our website or by phone. Explain the situation clearly, providing any evidence or doc",نعتذر عن هذا الخطأ، يمكنك طلب استرداد المبلغ بالتواصل مع فريق خدمة العملاء وتزويدهم بتفاصيل العملية والمستندات الداعمة. سيقوم أحد الزملاء بمتابعة حالتك والتأكد من حل المشكلة في أقرب وقت.,1,1,0,True,1,0,"The context lacks a specific solution for the deducted money issue, so the hand-off is appropriate, but the reply adds a promise of follow-up not found in the context."
+السلام عليكم، مدى مو راضي يقبل الدفع عندكم، ممكن تساعدوني؟,payment_issue,get_refund,"[1] It's great to hear from you! I can see that you would like assistance in viewing our available payment methods. I'm here to help! We offer a variety of payment options to provide convenience for our customers. Here's a detailed list of our accepted payment methods:
+
+- Credit/Debit Card: We accept major cards like Visa, Mastercard, and American Express.
+- PayPal: A popular online payment method tha
+
+[2] For sure! I'm here to assist you in checking our available payment methods. It's essential to provide you with convenient options tailored to your needs. Here's a step-by-step guide:
+
+1. Visit our website and navigate to the ""Payment Methods"" page.
+2. On the ""Payment Methods"" page, you will find a comprehensive list of all the accepted payment modalities.
+3. Take a moment to review the diverse opt
+
+[3] I'll get right on it! I understand your need to see our available payment methods, and I'm here to assist you. To check our payment options, you can visit our website and navigate to the ""Payment Methods"" section. There, you will find a detailed list of the payment methods we accept, including credit/debit cards like Visa, Mastercard, and American Express, as well as popular online platforms like ","أهلاً بك، يمكنك مراجعة صفحة ""طرق الدفع"" على موقعنا للاطلاع على الخيارات المتاحة، وسيتواصل معك أحد الزملاء لتأكيد مدى قبول بطاقات مدى.",0,1,0,False,1,0,"The context lacks information on مدي cards, so the hand-off is appropriate, but the reply introduces new details about colleague contact not found in context."
+ليه كل ما جيت ادفع يرفض العمليه مع ان رصيدي موجود؟!,payment_issue,track_refund,"[1] I can tell that you're unsure about the steps to take in order to request a refund of your money. Rest assured, I'm here to guide you through the process. To begin, it's important to gather all the necessary information related to your purchase, such as the order number, date of purchase, and the reason for the refund. Once you have this information ready, you can contact our customer support team
+
+[2] I'm conscious of the reality that you're seeking assistance in requesting compensation for your money. I apologize for any inconvenience you may have experienced. To better understand your situation and provide you with the most appropriate guidance, could you please provide more details about the issue? This will allow me to assist you effectively and ensure that you receive the compensation you 
+
+[3] I'm clearly cognizant your frustration in trying to obtain the bill from, and I apologize if you've had any difficulties. Rest assured, I'm here to assist you in retrieving the bill you need. Please bear with me for a moment while I locate and provide you with the necessary information. If you have any other questions or concerns, feel free to let me know.",أعتذر عن الإزعاج الذي واجهته مع عملية الدفع، وللأسف لا أملك تفاصيل محددة حول سبب رفض العملية في النظام الحالي. أحد الزملاء المختصين سيتابع معك مباشرةً للتحقق من حالة الدفع وحل المشكلة في أقرب وقت.,1,0,0,False,1,0,"Context has no information on payment refusal, so hand-off is appropriate, but reply specifies colleague follow-up not in context."
+أبي ألغي طلبي قبل لا ينشحن.,cancel_order,cancel_order,"[1] I certainly recognize your desire to cancel your purchase with the order number A-36685. We want to ensure that you have a seamless experience. To cancel your purchase, please follow these steps:
+
+1. Sign into Your Account: Access our DemoMart account by signing in to your account.
+2. Locate the Order: Once you are logged in, navigate to the 'order management page' or 'order management page' secti
+
+[2] I'm not mistaken your need to download your bill from . Let me guide you through the process. First, please log in to your account on our website. Once you're logged in, navigate to the ""Billing"" or ""Invoices"" section. There, you should see a list of all your invoices. Look for the invoice with Reem' name and click on the download button next to it. If you encounter any issues or if you have furth
+
+[3] I've come to understand that you no longer want to proceed with the purchase of this article and would like to cancel order A-50857. I apologize for any inconvenience caused. To assist you with the cancellation process, please follow these steps:
+
+1. Access Your Account: Log in to your DemoMart account using your credentials.
+2. Locate Your Orders: Once logged in, navigate to the 'order management","أهلاً بك، يمكنك إلغاء طلبك قبل الشحن عبر تسجيل الدخول إلى حسابك ثم التوجه إلى صفحة ""إدارة الطلبات"" واختيار الطلب المراد إلغاءه واتباع خطوات الإلغاء الموضحة هناك. إذا واجهت أي صعوبة أو لم تجد خيار الإلغاء، سيقوم أحد الزملاء بمتابعة طلبك والتأكد من إيقاف الشحنة في أقرب وقت.",1,1,2,True,1,0,"The reply answers the cancellation request with steps from the context, but includes a promise about a colleague's action not present in the context."
+خلاص ما عاد ابي الطلب الغوه الحين لو سمحتو,cancel_order,cancel_order,"[1] Thank you for contacting! I certainly recognize that you would like assistance in locating your order with the order number A-87276. I apologize for any inconvenience caused, and I'm here to help you with this. To check the status of your order, please visit the ""order management page"" section on our website. If you have any other questions or need further assistance, feel free to ask. I'm committ
+
+[2] We understand that you would like to remove an item from order number A-61990. We apologize for any inconvenience caused. To assist you better, could you please provide us with the specific item(s) you wish to remove? Once we have this information, we can proceed with the necessary modifications. Thank you for your cooperation in making your order exactly as you desire.
+
+[3] I see your need for assistance in canceling your order with the number A-81066. Our goal is to provide you with a seamless experience throughout the cancellation process. Here are the steps you can follow:
+
+1. Sign in to Your Account: To initiate the cancellation process, please sign in to your DemoMart account.
+2. Navigate to Your Orders: Once you're logged in, locate the 'order management page' ",نعتذر عن أي إزعاج، يرجى تزويدنا برقم الطلب لنتمكن من مساعدتك في إلغاء طلبك.,0,1,1,True,1,1,"The reply appropriately requests the order number to proceed with cancellation, which is consistent with the context where agents ask for additional information to assist with order modifications."
+طلبت مقاس غلط، اقدر ألغي الطلب وأطلب من جديد؟,cancel_order,change_shipping_address,"[1] I'm sorry to hear that you want to make a complaint. Our company takes all complaints seriously and we strive to address and resolve them promptly. To ensure that your complaint is properly registered and reviewed, I kindly request you to provide specific details regarding the issue you faced. This will allow us to better understand your concerns and take appropriate action. Your feedback is valua
+
+[2] I've been informed that you're looking to inquire about rebates. Receiving rebates can be a great way to save money or get a partial refund on your purchase. To assist you further, could you please provide me with more details about the specific product or service you're seeking a rebate for? With this information, I can guide you through the necessary steps or provide you with any additional info
+
+[3] I've grasped that you're seeking assistance with a consumer reclamation. Your concern is important to us, and we are committed to addressing it promptly. To initiate the process, I recommend contacting our customer support team at 920000000 or sending an email to support@demomart.example with all the relevant details. Our dedicated team will guide you through the necessary steps and work towards r",أحد الزملاء بيتابع معك بخصوص إمكانية إلغاء الطلب وإعادة الطلب بالمقاس الصحيح.,1,1,0,False,1,0,"The context has no information on order cancellation, so the hand-off is appropriate, but the reply mentions a colleague following up, which is not in the context."
+ليش ما اقدر ألغي طلبي من التطبيق؟ أبي ألغيه!,cancel_order,cancel_order,"[1] Unquestionably! I'm here to assist you with resetting the password of your account, ensuring a smooth and secure process.
+
+1. Please navigate to the login page of our platform by visiting ""demomart.example/login"" in your web browser.
+2. On the login page, locate the option that says ""Forgot password"" and click on it. This will initiate the password reset process.
+3. You'll be prompted to provide y
+
+[2] We're here to help to us with your request to cancel your premium account. We understand that circumstances may change, and we're here to assist you with the cancellation process. To proceed with the cancellation, we kindly ask you to provide us with some additional information. Can you please confirm the account details such as your username or email address associated with the premium account? T
+
+[3] I see what you mean your need to download your bill with the number #Invoice Number. Let me assist you with that. To download your bill, please follow these steps:
+
+1. Log in to your account on our website.
+2. Navigate to the ""Billing"" or ""Invoices"" section.
+3. Look for the option to ""Download"" or ""View"" your invoice.
+4. Click on the respective option to download the invoice.
+
+If you encounter any",أعتذر عن عدم تمكنك من إلغاء الطلب عبر التطبيق، أحد الزملاء بيتابع معك لتوضيح الخطوات اللازمة وإتمام الإلغاء إن أمكن.,1,0,0,True,1,1,"The context does not contain information about canceling an order from the app, so the reply appropriately hands off to a colleague without providing specific details."
+وين وصل طلبي؟ للحين ما جاني.,track_order,track_order,"[1] We appreciate your interest in placing an order with us! We're here to assist you every step of the way. To better understand your needs, could you please provide us with more details about the specific items you would like to order? Once we have that information, we'll be able to guide you through the process and ensure a smooth and satisfying experience.
+
+[2] Of course! We're here to assist you with modifying your shipping address. To proceed, please provide us with the updated address details, and we'll make sure to update it in our system for your order. You can either contact our customer support team directly or make the changes online through your account's shipping address section. Let us know if there's anything else we can help you with!
+
+[3] First, I want to apologize for any frustration or inconvenience you may have experienced while trying to submit a new delivery address. I'm here to help you with the process. 
+
+To submit a new delivery address, please follow these steps:
+1. Log in to your account on our website/App.
+2. Navigate to the ""My Account"" or ""Profile"" section.
+3. Look for the ""Shipping Addresses"" or a similar option.
+4. C",أعتذر لعدم توفر تفاصيل التتبع لدي، أحد الزملاء بيتابع معك حالة طلبك ويوافيك بالتحديثات مباشرة.,0,1,0,True,1,0,"The context contains no information about order tracking, so the hand-off is appropriate. However, the reply specifies that a colleague will follow up, which is not grounded in the context."
+ممكن تعطوني تحديث عن حالة الشحن؟,track_order,track_refund,"[1] Indeed! You can definitely update the delivery address. To do so, please log in to your account and navigate to the ""My Account"" section. From there, you should be able to find the option to edit your shipping address. If you encounter any issues or have further questions, feel free to reach out to our customer support team for assistance.
+
+[2] I'm happy to help! A delivery address update is when you need to change the address where your package will be delivered. This can be necessary if you have moved to a new location or if you made a mistake when providing your address initially. To update your delivery address, you can usually do so through the website or app where you made your purchase. Look for the ""Account"" or ""Profile"" section,
+
+[3] Definitely! If your shipping address has changed, we can definitely help you update it. Please provide us with the correct address details, and we will make sure your package is delivered to the right location.",أعتذر، لا تتوفر لدي معلومات عن حالة الشحن في الوقت الحالي، وسأطلب من أحد الزملاء متابعة طلبك وتزويدك بالتحديث اللازم. شكراً لصبرك.,1,0,0,False,1,1,"The context does not contain information about shipping status, so the hand-off is appropriate. The reply includes only politeness and a hand-off with no specific information requiring grounding."
+طلبي له خمس ايام بالطريق، متى يوصل بالضبط؟!,track_order,track_order,"[1] We understand that you're eager to know how long it takes for a delivery to arrive. The estimated delivery time can vary depending on various factors such as the shipping method, destination, and any unforeseen circumstances during transit. To provide you with an accurate estimate, may I please have the the tracking number in your confirmation SMS or Order Number? With this information, we can loo
+
+[2] We completely understand your eagerness to know the estimated arrival time of your article. To provide you with the most accurate information, could you please provide us with the the tracking number in your confirmation SMS or Order Number for your purchase? With this information, we'll be able to give you a precise estimate of when your article will arrive. Your patience is greatly appreciated!
+
+[3] We understand your desire to know the estimated arrival time for your article. In order to provide you with accurate information, could you please provide us with the tracking number or order number? With that information, we can give you a precise estimate. We appreciate your cooperation in this matter.",أهلاً بك، نفهم حرصك على معرفة موعد وصول طلبك بدقة. لتتمكن من تزويدك بموعد التسليم المتوقع، نحتاج رقم التتبع الموجود في رسالة التأكيد أو رقم الطلب. بمجرد تزويدنا بهذه المعلومة، سنتمكن من متابعة حالة الشحنة وإعطائك الوقت المحدد للوصول.,1,1,0,True,1,1,"The reply does not provide the exact delivery time but appropriately requests the tracking number or order number, consistent with the context where all agents ask for this information to provide an estimate. All specific details in the reply, such as needing the tracking number from the confirmation message and tracking the shipment once provided, are found in the context."
+كيف اتتبع طلبي؟ رقم الطلب موجود عندي بس ما عرفت وين احطه.,track_order,track_order,"[1] Thank you for trusting to us for assistance in locating your bill with the number #Invoice Number. I understand how important it is for you to access this information. To help you with that, kindly follow these steps: 
+
+1. Login to your account on our website at demomart.example.
+2. Navigate to the 'Billing' or 'Invoices' section.
+
+If you are unable to find the invoice or encounter any difficultie
+
+[2] I pick up what you're putting down, your need to download the bill with the number #Invoice Number. Let me guide you through the process. To download your bill, please follow these steps:
+
+1. Log in to your account on our website.
+2. Navigate to the ""Billing"" or ""Invoices"" section.
+3. Look for the option to view or download your invoice.
+4. Click on the ""Download"" button or the corresponding link.
+
+[3] I understand your need to download invoice #Invoice Number and I'm here to assist you. To download your invoice, please follow these steps:
+
+1. Log in to your account on our website.
+2. Navigate to the ""Billing"" or ""Invoices"" section.
+3. Look for the option to ""Download Invoice"" or a similar phrase.
+4. Click on the download button to save the invoice to your device.
+
+If you encounter any issues or","أهلاً بك، للاطلاع على حالة طلبك يرجى تسجيل الدخول لحسابك على موقعنا ثم التوجه إلى قسم ""طلباتي"" أو ""تتبع الطلب"" وإدخال رقم الطلب هناك. إذا واجهت أي صعوبة في العثور على الصفحة المناسبة، سيقوم أحد الزملاء بمتابعة الأمر معك وتقديم الخطوات الدقيقة.",1,1,0,True,1,0,"The reply appropriately addresses the customer's request for order tracking by providing relevant steps and a hand-off, as the context only covers invoice downloading and lacks order tracking information."
+نسيت كلمة المرور وما اقدر ادخل حسابي، وش أسوي؟,recover_password,recover_password,"[1] Unquestionably! I'm here to assist you with resetting the password of your account, ensuring a smooth and secure process.
+
+1. Please navigate to the login page of our platform by visiting ""demomart.example/login"" in your web browser.
+2. On the login page, locate the option that says ""Forgot password"" and click on it. This will initiate the password reset process.
+3. You'll be prompted to provide y
+
+[2] For sure! I completely understand your situation and the importance of regaining access to your user account. Allow me to guide you through the process of resetting your password:
+
+1. Begin by visiting our ""demomart.example/login"" to reach the login page of our platform.
+2. Look for the ""Forgot password"" option, which should be prominently displayed. Click on it.
+3. You will be prompted to enter t
+
+[3] Indeed! I understand the importance of retrieving your user password. Let's work together to regain access to your account:
+
+1. To begin, please visit our ""demomart.example/login"".
+2. Look for the ""Forgot password"" option and click on it.
+3. You will be asked to enter the email address associated with your account. Please provide the email address that you used during the registration process.
+4. ","أهلاً بك! لاستعادة كلمة المرور، يرجى زيارة صفحة تسجيل الدخول على ""demomart.example/login"" والضغط على خيار ""نسيت كلمة المرور""، ثم إدخال البريد الإلكتروني المرتبط بحسابك لاستلام رابط إعادة التعيين. إذا واجهت أي صعوبة، سيقوم أحد الزملاء بمتابعة الأمر معك.",1,1,3,True,1,0,"The reply correctly addresses the password reset request with steps from the context, but it adds a hand-off to colleagues that is not mentioned in the context."
+حاولت اغير الباسورد بس رابط الاستعادة مو شغال!!,recover_password,recover_password,"[1] Oh no! I understand the frustration of forgetting your user account key and the urgency to retrieve it. Don't worry, I'm here to guide you through the process and get you back on track. Let's embark on this journey together:
+
+1. First, navigate to our login page at ""demomart.example/login"".
+2. Look for the option that says ""Forgot User Account Key"" and click on it.
+3. You will be prompted to provi
+
+[2] Thank you for contacting to us for assistance with restoring the password of your user profile. I understand how important it is to regain access to your profile. Allow me to guide you through the process:
+
+1. Start by visiting our ""Profile Recovery Page URL"".
+2. Look for the option labeled ""Restore Password"" and click on it.
+3. You will be prompted to provide the email address associated with you
+
+[3] I've realized that you're having trouble modifying your address. I apologize for any frustration caused. Rest assured, I'm here to assist you with making the necessary changes. Please provide me with the current and correct address details, and I'll ensure it is updated in our system promptly.",أعتذر عن المشكلة التي واجهتها مع رابط استعادة كلمة المرور، أحد الزملاء بيتابع معك لحل هذه المشكلة مباشرة.,0,1,2,True,1,1,"The context does not provide a specific solution for the broken recovery link, and the reply appropriately hands off to a colleague without introducing unsupported information."
+السلام عليكم، كيف أستعيد كلمة المرور لحسابي؟,recover_password,recover_password,"[1] Unquestionably! I'm here to assist you with resetting the password of your account, ensuring a smooth and secure process.
+
+1. Please navigate to the login page of our platform by visiting ""demomart.example/login"" in your web browser.
+2. On the login page, locate the option that says ""Forgot password"" and click on it. This will initiate the password reset process.
+3. You'll be prompted to provide y
+
+[2] Positively! I'm here to guide you through the process of restoring the password for your account. Let's get started:
+
+1. Begin by visiting our ""demomart.example/login"" to access your account.
+2. Look for the option that says ""Forgot password"" and click on it.
+3. You will be prompted to enter the email address associated with your account.
+4. After providing the email address, an email will be sent
+
+[3] Assuredly! I understand that you need to reset your user account password. Let me assist you with the steps to do it:
+
+1. Visit our platform's login page by navigating to the ""demomart.example/login"".
+2. Look for the option that says ""Forgot password"" and click on it.
+3. You will be prompted to provide your email address linked to your user account. Enter it carefully.
+4. Shortly after, you should","وعليكم السلام، لاستعادة كلمة المرور يرجى الدخول إلى صفحة تسجيل الدخول عبر ""demomart.example/login"" والضغط على خيار ""نسيت كلمة المرور""، ثم إدخال البريد الإلكتروني المرتبط بالحساب لتصلك رسالة إعادة تعيين.",1,1,3,True,1,1,"The reply directly provides the password reset steps as per the context, in Arabic, matching the customer's language."
+ما توصلني رسالة اعادة تعيين الرقم السري على الايميل، ليه؟,recover_password,change_shipping_address,"[1] Of course! I'm here to assist you with updating your address. To do so, you can either log into your account on our website and navigate to the settings section, or you can reach out to our customer support team for further guidance. Let me know if there's anything specific you need help with during this process.
+
+[2] Assuredly! We understand that situations may arise where your delivery address needs to be corrected. To update your address, please contact our customer support team either through our helpline or by sending an email with your updated address details. They will guide you through the process and ensure that your correct address is recorded for future deliveries.
+
+[3] Thank you for your inquiry! To reach our customer service team via email, please send your message to support@demomart.example. Our dedicated team is committed to addressing your concerns and providing prompt assistance. If you have any other questions or need further support, please don't hesitate to let me know.",أعتذر، هذا الاستفسار يتعلق بإعادة تعيين كلمة المرور وليس بتغيير عنوان الشحن، وسيتواصل معك أحد الزملاء المختصين لمساعدتك في هذه المسألة.,1,1,0,False,1,0,"The context has no information about password resets, and the reply appropriately hands off to a colleague, but it introduces specific details (topic identification and promise of contact) not found in the context."
+ابغى اغير عنوان التوصيل لعنوان ثاني، كيف؟,change_shipping_address,change_shipping_address,"[1] I understand your need to set up your secondary delivery address, and I'm here to guide you through the process. To accomplish this, please follow the steps outlined below:
+
+1. Log in to your account on our website.
+2. Once logged in, navigate to the ""My Account"" or ""Profile"" section.
+3. Look for the ""Shipping Addresses"" or similar option.
+4. Click on it to access the screen where you can manage y
+
+[2] I understand your frustration regarding the inability to set the secondary shipping address. To better assist you, I would need more information about the specific issue you are facing. Are you receiving any error messages? Alternatively, are you finding it challenging to locate the option to add a secondary shipping address? Please provide more details, and I'll do my best to help you resolve thi
+
+[3] Sure! I'm here to assist you in setting up your secondary shipping address. Follow these steps to get it done smoothly:
+
+1. Log in to your account on our website or app.
+2. Navigate to the ""Account"" or ""Profile"" section.
+3. Look for the ""Shipping Addresses"" or similar option.
+4. Click on ""Add a New Address"" or ""Edit Shipping Addresses"".
+5. Fill in the necessary details for your secondary shipping ","يمكنك تغيير عنوان التوصيل بسهولة عبر تسجيل الدخول لحسابك على الموقع أو التطبيق، ثم التوجه لقسم ""حسابي"" أو ""الملف الشخصي"" واختيار ""عناوين الشحن"" لإضافة أو تعديل العنوان الثانوي. املأ البيانات المطلوبة للعنوان الجديد واحفظ التغييرات، وسيتم استخدامه في طلباتك القادمة.",1,1,0,True,1,0,"The reply directly answers the customer's request by providing steps to change the delivery address, but it includes specific information like 'save the changes' and 'it will be used in your upcoming orders' that are not explicitly mentioned in the context."
+انتبهت اني حطيت عنوان البيت القديم، تكفون عدلوه قبل الشحن!,change_shipping_address,change_shipping_address,"[1] I'm on it! We understand that mistakes happen. To help you modify your address, please provide us with the correct details, and we will update it for you.
+
+[2] I'm on it! I can assist you in setting up a new delivery address. To begin, please follow these steps:
+
+1. Access your account on our website.
+2. Navigate to the ""My Account"" or ""Profile"" section.
+3. Look for the ""Shipping Addresses"" or similar option.
+4. You should find an option to ""Add a New Address"" or ""Edit Shipping Addresses"". Select it.
+5. Enter the details of your new delivery address in t
+
+[3] I've realized that you're feeling frustrated and eager to set up your delivery address. I apologize for any inconvenience you've encountered so far. Rest assured, I'm here to assist you every step of the way. Let's get started:
+
+1. Log in to your account on our website.
+2. Look for the 'My Account' or 'Profile' section.
+3. Within that section, navigate to the 'Shipping Addresses' or a similar opti",أهلاً بك! نقدر تنبهك، وسنقوم بتعديل العنوان قبل الشحن بكل سرور. تكرماً زودنا بالتفاصيل الصحيحة للعنوان الجديد (الاسم، الشارع، الحي، المدينة، رقم الجوال) لنحدثه لك فوراً.,1,1,1,True,1,0,The reply specifies address details like name and street not explicitly mentioned in the context.
+ممكن تحولون الشحنة لعنوان عملي بدل البيت؟,change_shipping_address,change_shipping_address,"[1] We apologize for the inconvenience caused. To modify your delivery address, please follow these steps:
+
+1. Log in to your account on our website.
+2. Navigate to the ""My Account"" section.
+3. Look for the ""Address Book"" or ""Shipping Address"" option.
+4. Click on it and select the address you want to modify.
+5. Make the necessary changes to the address fields.
+6. Save the updated address.
+
+If you enco
+
+[2] Of course! We're here to assist you with modifying your shipping address. To proceed, please provide us with the updated address details, and we'll make sure to update it in our system for your order. You can either contact our customer support team directly or make the changes online through your account's shipping address section. Let us know if there's anything else we can help you with!
+
+[3] To change the address, you can go to your account settings or contact our customer support. They will guide you through the process and assist you in updating your shipping address.","بالتأكيد، يمكننا تحديث عنوان الشحن إلى عنوان عملك. يرجى تزويدنا بتفاصيل العنوان الجديد وسنقوم بتعديله في النظام، أو يمكنك تعديله مباشرة من خلال إعدادات حسابك في قسم ""عناوين الشحن"". أخبرنا إذا كنت بحاجة لأي مساعدة إضافية.",1,1,3,True,1,1,"The reply addresses the request by offering to update the address or guiding to self-service, and all specific information is found in the context."
+غيرت سكني وابغى احدث عنوان التوصيل للطلب الحالي.,change_shipping_address,change_shipping_address,"[1] I'm on it! I can assist you in setting up a new delivery address. To begin, please follow these steps:
+
+1. Access your account on our website.
+2. Navigate to the ""My Account"" or ""Profile"" section.
+3. Look for the ""Shipping Addresses"" or similar option.
+4. You should find an option to ""Add a New Address"" or ""Edit Shipping Addresses"". Select it.
+5. Enter the details of your new delivery address in t
+
+[2] I've come to understand that you're having trouble setting up your new shipping address. I'm here to assist you in resolving this issue. To better understand the situation, could you provide more details about the exact error message or any specific obstacles you encountered during the process? This information will enable me to provide you with tailored guidance and ensure that your new shipping 
+
+[3] I perceive that you're facing difficulties in setting up your new delivery address. I apologize for any inconvenience this has caused you. To assist you effectively, could you please provide more information about the specific issues you are encountering? This will help me better understand the problem and provide you with appropriate guidance and solutions. Your satisfaction is my priority, and I",يمكنك تحديث عنوان التوصيل عبر الدخول لحسابك واتباع خطوات إضافة عنوان جديد، وإذا واجهت أي مشكلة في الطلب الحالي يرجى تزويدي بتفاصيل الخطأ لمساعدتك بشكل أفضل.,1,1,0,True,1,1,"The reply provides steps to update the address based on context [1] and asks for error details as per context [2] and [3], effectively addressing the customer's request."
+خدمة العملاء عندكم سيئة جدًا وكل ما كلمتكم محد يرد علي!,complaint,complaint,"[1] I'm deeply sorry to hear that you want to lodge a claim against our company. Please know that we take your concerns seriously and are committed to resolving the issue to your satisfaction. To help you with the process, I kindly request you to provide some more details about your claim. This will enable me to understand the situation better and guide you towards the appropriate channel for lodging 
+
+[2] I'm truly sorry to hear that you have a complaint against our company. Your feedback is valuable to us as it helps us identify areas for improvement and enhance the customer experience. To ensure that your complaint is properly addressed, I kindly request you to provide me with detailed information regarding the nature of your complaint. This will allow us to investigate the matter thoroughly and 
+
+[3] I'm sorry to hear that you have a complaint against our business. Your feedback is extremely valuable to us as it helps us identify areas for improvement and enhance our services. To ensure that your complaint is properly addressed, could you please provide me with more details about your specific concern? This will allow me to gather all the necessary information and escalate it to the appropriat",أعتذر بصدق عن تجربتك السيئة مع خدمة العملاء، وملاحظاتك مهمة جداً لنا لتحسين خدماتنا. يرجى تزويدي بمزيد من التفاصيل حول مشكلتك المحددة (مثل رقم الطلب أو طبيعة الاستفسار) لأتمكن من التحقيق في الأمر وتصعيده للفريق المختص. أحد الزملاء سيتابع معك لضمان حل المشكلة بأسرع وقت ممكن.,1,1,3,True,1,0,"The reply appropriately addresses the customer's complaint by apologizing and requesting details, similar to the context, but it introduces specific information like a colleague's follow-up and quick resolution assurance not found in the context."
+الصراحة تجربتي معكم كانت سيئة والمنتج جودته أقل بكثير من المتوقع.,complaint,track_refund,"[1] I deeply regret to hear that your experience with us was awful and I apologize for any distress caused. To ensure your concerns are properly addressed, let's lodge a claim on your behalf. Could you please provide specific details of your experience and the issues you encountered? Your feedback is incredibly valuable to us and will assist us in identifying areas for improvement. Rest assured that w
+
+[2] I'm truly sorry to hear that you had a negative experience with our brand. Your feedback is of utmost importance to us, and we genuinely appreciate you bringing this matter to our attention. To ensure that we address your concerns properly, I kindly request that you file a claim with us. This will allow us to thoroughly investigate the matter and work towards finding a satisfactory resolution. Tha
+
+[3] I deeply regret hearing that your experience with us was so unsatisfactory. I apologize for any inconvenience caused by our services, and I want to assure you that we value your feedback. To address your concerns and file a reclamation, I recommend contacting our customer support team directly. They will guide you through the necessary steps and work towards resolving your issue promptly. Our goal",نعتذر بشدة عن تجربتك السيئة ونقدر ملاحظتك القيّمة، يرجى تزويدنا بتفاصيل أكثر عن المشكلة لتقديم شكوى رسمية ومعالجتها بشكل صحيح. فريق الدعم سيتابع معكم الخطوات اللازمة لحل الأمر.,1,1,3,False,1,1,"The reply apologizes and requests more details to file a formal complaint, which aligns with the context's approach of asking for specific information to lodge a claim."
+مو معقول كل مرة اطلب منكم يصير تأخير! هذي آخر مرة أتعامل مع المتجر.,complaint,complaint,"[1] I'm sorry to hear that you need to file a consumer complaint. Your feedback is valuable to us, and we take all concerns seriously. To ensure a thorough investigation, please provide us with detailed information regarding your complaint, such as the nature of the issue, any relevant documentation or evidence, and your desired resolution. Rest assured that our team will review your complaint promptl
+
+[2] I've grasped that you're seeking assistance with a consumer reclamation. Your concern is important to us, and we are committed to addressing it promptly. To initiate the process, I recommend contacting our customer support team at 920000000 or sending an email to support@demomart.example with all the relevant details. Our dedicated team will guide you through the necessary steps and work towards r
+
+[3] I've picked up that you're experiencing an issue with your delivery address. I'm here to help you resolve this problem and ensure a smooth shipping process. To better assist you, could you please provide more details about the specific issue you're facing? Are you having trouble entering or updating your delivery address? Once I have more information, I can guide you through the necessary steps to",أعتذر بصدق عن تجربتك المتكررة مع التأخير، ونقدر ملاحظتك لأنها مهمة جداً لنا. لضمان التحقيق الشامل في مشكلتك، يرجى تزويدنا بتفاصيل طلباتك المتأخرة عبر التواصل مع فريق الدعم على الرقم 920000000 أو البريد الإلكتروني support@demomart.example. فريقنا المختص سيتابع حالتك بجدية ويعمل على إيجاد حل مناسب.,1,1,2,True,1,1,"The reply appropriately handles the customer's complaint by apologizing and handing off to the support team with contact details from the context, and all specific information is grounded in the context."
+حبيت أبلغكم إن التغليف وصلني مفتوح والمنتج كان متضرر أتمنى تعالجون المشكلة,complaint,complaint,"[1] I'm attuned to the idea that you're eager to receive our company newsletter and are seeking assistance. I apologize for any frustration you may have experienced. Rest assured, I'm here to help you with the subscription process. Could you please provide me with your email address so that I can ensure you're added to our newsletter mailing list? We'll make sure you receive all the latest updates and
+
+[2] I'm deeply sorry to hear that you want to lodge a claim against our company. Please know that we take your concerns seriously and are committed to resolving the issue to your satisfaction. To help you with the process, I kindly request you to provide some more details about your claim. This will enable me to understand the situation better and guide you towards the appropriate channel for lodging 
+
+[3] We're here for you! I'm aware that you need to call our customer assistance urgently. I apologize for any frustration you may have experienced. Our team is here to help resolve any issues or answer any questions you may have. Please provide me with some additional details so that I can assist you more effectively. What specific issue or question would you like assistance with?",نعتذر عن وصول المنتج تالفاً، ونأخذ مخاوفك على محمل الجد. يرجى تزويدنا بتفاصيل إضافية عن الضرر لنتمكن من مساعدتك بشكل أفضل.,1,1,1,True,1,0,"The reply appropriately addresses the customer's issue by apologizing and requesting additional details, which is suitable as the context lacks a direct answer. However, the specific request for details about the damage is not found in the context."

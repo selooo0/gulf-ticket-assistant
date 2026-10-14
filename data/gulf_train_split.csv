@@ -1,0 +1,148 @@
+text,intent
+الطلبية وينها؟ لها عشرة ايام,track_order
+شلون اتابع الاسترداد حقي؟,track_refund
+المندوب متى بيجي؟,track_order
+الطلب تأخر وابي الغيه,cancel_order
+الطلب حقي ضايع؟ ما جاني,track_order
+شلون اعرف الطلبية وين وصلت,track_order
+بغيت ارجع الاغراض وآخذ فلوسي,get_refund
+ابغا اكنسل الطلبية,cancel_order
+ساعدوني ارجع حسابي نسيت الباس,recover_password
+خدمة ما تستاهل ريال,complaint
+ابغى رمز جديد للدخول نسيت القديم,recover_password
+حالة الطلب ما تغيرت من فترة,track_order
+السستم يرفض بطاقتي من امس,payment_issue
+طلبت نفس الشي مرتين ابي الغي وحدة منهم,cancel_order
+تكفون ابي ارجع المبلغ حق الطلبية الأخيرة,get_refund
+بغيت اعرف متى توصل الطلبية,track_order
+جربت كذا بطاقة وكلها ترفض,payment_issue
+كيف اغير موقع التوصيل للطلب؟,change_shipping_address
+ضغطت الغاء بس الطلب للحين نشط,cancel_order
+رجعت المنتج من اسبوعين والفلوس ما وصلت,track_refund
+لو سمحت ابي استرداد كامل للمبلغ,get_refund
+كلمت الدعم ثلاث مرات وما حلوا شي,complaint
+من متى وانا انتظر فلوسي ترجع، وش صاير؟,track_refund
+المنتج مو مثل الصور ابي فلوسي,get_refund
+كم باقي ويوصل الطلب؟,track_order
+المقاس طلع صغير وابي استرجاع المبلغ مو استبدال,get_refund
+دفعت والطلب للحين يقول بانتظار الدفع,payment_issue
+ممكن تسترجعون لي قيمة المنتج؟ ما ناسبني,get_refund
+بدلوا الحي في العنوان لحي ثاني,change_shipping_address
+رقم التتبع ما يطلع شي,track_order
+كيف ارجع المنتج وتردون لي المبلغ,get_refund
+لا توصلون للعنوان هذا، عندي عنوان ثاني,change_shipping_address
+ليش تنخصم الفلوس مرتين كل ما اطلب؟,payment_issue
+المنتج تقليد مو اصلي وهذا غش,complaint
+ما عجبني المنتج وابي استرداد,get_refund
+كل مرة نفس المشاكل وانتم ولا كأنكم هنا,complaint
+الاسترداد ما وصل لمحفظتي للحين,track_refund
+ابغى انقل التوصيل لجدة بدل الرياض,change_shipping_address
+مقفل حسابي من كثر ما حاولت، ناسي كلمة السر,recover_password
+خدمتكم صايرة سيئة مره,complaint
+نسيت الرقم السري,recover_password
+ابي اغير المدينة في عنوان الشحن,change_shipping_address
+ابي اقدم شكوى على المندوب,complaint
+الموقع في الطلب مو صحيح ابي اصلحه,change_shipping_address
+خصمتو علي مبلغ اكثر من سعر الطلب,payment_issue
+ناسي الباس ولا عارف ادخل,recover_password
+ممكن اغير العنوان والطلب بالطريق؟,change_shipping_address
+ما اقدر ادفع، الزر ما يضغط,payment_issue
+نسيت الرمز السري حق التطبيق,recover_password
+كيف الغي الطلب؟ ما ابيه خلاص,cancel_order
+عطوني حل الدفع ما يكمل معي,payment_issue
+انسحب من حسابي مبلغ غريب منكم,payment_issue
+ابي اعدل اللوكيشن قبل يطلع المندوب,change_shipping_address
+طلبت بالغلط ابي الغيه قبل يتجهز,cancel_order
+ابي اعرف موقع الشحنة الحين,track_order
+لقيته ارخص بمكان ثاني ابي الغي الطلب,cancel_order
+الدفع ما يمشي معي من التطبيق,payment_issue
+اليوم آخر موعد للتوصيل وما وصل شي,track_order
+المندوب كان قليل ادب,complaint
+ابي ارجع الطلب كامل وتعيدون المبلغ,get_refund
+الرمز المؤقت ما وصلني عشان اغير الباس,recover_password
+تعامل الموظفين معي ما يليق,complaint
+الطلب ما وصلني للحين وش الوضع,track_order
+حاولت تمارا وما زبط معي,payment_issue
+العنوان غلط تكفون غيروه,change_shipping_address
+ممكن ترسلون الطلب لعنوان صديقتي؟,change_shipping_address
+المبلغ المسترد ما شفته في كشف الحساب,track_refund
+طلبي تأخر مره وين صار؟,track_order
+كل ما احط بيانات البطاقة يقول العملية فشلت,payment_issue
+نسيت الباسورد وايميلي القديم مو عندي,recover_password
+بغيت اعرف فلوسي المسترجعة متى توصل,track_refund
+تم استلام المرتجع بس الفلوس ما رجعت,track_refund
+عطوني رقم التتبع حق الشحنة,track_order
+الشحنة للحين ما تحركت,track_order
+دفعت بالفيزا ورجع لي خطأ بس الفلوس طارت,payment_issue
+وين الشحنة حقتي؟,track_order
+شلون الغي الطلب؟,cancel_order
+حولوا الطلب لاستراحتنا بدل البيت,change_shipping_address
+حسبي الله، ضيعتوا وقتي,complaint
+حالة الاسترجاع مكتوب قيد المعالجة من زمان,track_refund
+ابغا اتابع طلب الاسترجاع رقم ٤٥٦٧,track_refund
+ابي ارفع شكوى رسمية,complaint
+قلتولي تم الاسترداد بس البنك يقول ما وصل شي,track_refund
+متى يوصلني المبلغ اللي طلبت استرداده؟,track_refund
+ابغى ارجّع الطلبيه واخذ فلوسي,get_refund
+ممكن تشوفون طلبي وين؟,track_order
+الطلب ما عاد له لزمة كنسلوه,cancel_order
+الموظف قفل الخط بوجهي,complaint
+العنوان مكتوب غلط بالطلب,change_shipping_address
+ابي الطلب يوصل لبيت اهلي بدال بيتي,change_shipping_address
+ابي استرجع فلوسي على الطلب الأخير,get_refund
+كيف استرجع حسابي؟ الباس غلط,recover_password
+وصلتني الشنطة مشقوقة ابي فلوسي,get_refund
+شلون ارجع كلمة السر؟,recover_password
+كم ياخذ الاسترداد عشان يوصل البطاقة؟,track_refund
+ودي اكنسل اوردري,cancel_order
+الدفع معلق وما ادري انخصم ولا لا,payment_issue
+المبلغ اللي رجعتوه راح لأي حساب؟,track_refund
+ابي اشتكي على تأخير الخدمة,complaint
+تكررت المشكلة وما فيه حل، هذا مو مقبول,complaint
+طلبت استرجاع من عشرة ايام وللحين ما نزل شي,track_refund
+بطاقة الراجحي ما تنقبل عندكم,payment_issue
+كيف اسوي ريست للباسوورد؟,recover_password
+ليه فلوسي المسترجعة ما نزلت للحين؟,track_refund
+وش آخر اخبار طلبي؟,track_order
+الحساب فيه فلوس بس الدفع يتعطل,payment_issue
+ابغا اعيد تعيين كلمة المرور,recover_password
+حطيت رقم الشقة غلط عدلوه,change_shipping_address
+ابي اوصل شكواي للمدير,complaint
+التتبع ما يتحدث وش السالفة,track_order
+ابي اعدل عنوان الطلب,change_shipping_address
+ابي الغي طلبي رقم ٨٨٢١,cancel_order
+الباسوورد راح من بالي كيف ارجعه,recover_password
+انسحب المبلغ مرتين على نفس الطلب,payment_issue
+ابي اعرف طلبي وين وصل,track_order
+هل اقدر ارجع الطلب واسترد المبلغ بعد اسبوع؟,get_refund
+التحويل ما تم والمبلغ انخصم,payment_issue
+ما ابي الطلب لا ترسلونه,cancel_order
+متى يوصلني الطلب رقم ٣٣٤٥؟,track_order
+لو سمحت كنسلوا الطلب,cancel_order
+صار خطأ وقت الدفع والفلوس راحت,payment_issue
+ابل باي ما يشتغل عندكم,payment_issue
+بغيت ادخل حسابي بس ناسية الباسورد,recover_password
+طلبي اللي طلبته الخميس متى يجي؟,track_order
+اختار الدفع وتطلع لي رسالة خطأ غريبة,payment_issue
+شلون اغير العنوان بعد ما طلبت؟,change_shipping_address
+ما راح اشتري منكم مره ثانية,complaint
+الطلب طول وايد وين وصل؟,track_order
+البنك خصم المبلغ والتطبيق يقول الدفع ما تم,payment_issue
+شلون اقدر ارجع البضاعة واستلم فلوسي؟,get_refund
+ابي اتأكد ان طلب الاسترجاع حقي ماشي,track_refund
+طلبيتي وصلت الرياض ولا لا؟,track_order
+وين وصلت فلوسي اللي رجعتوها؟,track_refund
+البطاقة ترفض كل ما ادفع,payment_issue
+كيف اطلب استرجاع فلوس؟ ما لقيت الخيار بالتطبيق,get_refund
+ابغى تحديث عن الاسترداد حقي,track_refund
+الطلب لا تشحنونه ابي الغيه,cancel_order
+الاسترداد للحين معلق ليش؟,track_refund
+الصفحة علقت وقت الدفع وانخصم المبلغ,payment_issue
+متى ينزل المبلغ المسترد بالحساب؟,track_refund
+ابي باسوورد جديد ما اتذكر القديم,recover_password
+الطلب مكتوب قيد التوصيل من ثلاث ايام,track_order
+قلتو بترجع الفلوس خلال خمس ايام وما نزلت,track_refund
+وينها فلوسي اللي قلتوا بترجعونها؟,track_refund
+تعاملكم سيء وما احد يهتم,complaint
+ابي الغي الاوردر,cancel_order
+ابغا فلوسي ترجع لي المنتج ناقص قطع,get_refund

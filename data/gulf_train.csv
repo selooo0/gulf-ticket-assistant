@@ -1,0 +1,191 @@
+﻿text,intent
+ابي استرجع فلوسي على الطلب الأخير,get_refund
+كيف ارجع المنتج وتردون لي المبلغ,get_refund
+المنتج مو مثل الصور ابي فلوسي,get_refund
+ودي ارجع القطعة واخذ فلوسي,get_refund
+لو سمحت ابي استرداد كامل للمبلغ,get_refund
+الجهاز ما اشتغل من اول يوم رجعوا لي فلوسي,get_refund
+هل اقدر ارجع الطلب واسترد المبلغ بعد اسبوع؟,get_refund
+ابغى ارجّع الطلبيه واخذ فلوسي,get_refund
+المقاس طلع صغير وابي استرجاع المبلغ مو استبدال,get_refund
+جاني اللون غلط، ابي فلوسي ترجع,get_refund
+شلون اقدر ارجع البضاعة واستلم فلوسي؟,get_refund
+ابي ارد الغرض واسترجع المبلغ للبطاقة,get_refund
+ابغا فلوسي ترجع لي المنتج ناقص قطع,get_refund
+تكفون ابي ارجع المبلغ حق الطلبية الأخيرة,get_refund
+ما عجبني المنتج وابي استرداد,get_refund
+كيف اطلب استرجاع فلوس؟ ما لقيت الخيار بالتطبيق,get_refund
+وصلتني الشنطة مشقوقة ابي فلوسي,get_refund
+ابي ارجع الطلب كامل وتعيدون المبلغ,get_refund
+ممكن تسترجعون لي قيمة المنتج؟ ما ناسبني,get_refund
+بغيت ارجع الاغراض وآخذ فلوسي,get_refund
+طلبت استرجاع من عشرة ايام وللحين ما نزل شي,track_refund
+وين وصلت فلوسي اللي رجعتوها؟,track_refund
+متى ينزل المبلغ المسترد بالحساب؟,track_refund
+قلتو بترجع الفلوس خلال خمس ايام وما نزلت,track_refund
+ابي اتأكد ان طلب الاسترجاع حقي ماشي,track_refund
+الاسترداد للحين معلق ليش؟,track_refund
+وش حالة استرجاع المبلغ؟,track_refund
+رجعت المنتج من اسبوعين والفلوس ما وصلت,track_refund
+كم ياخذ الاسترداد عشان يوصل البطاقة؟,track_refund
+المبلغ المسترد ما شفته في كشف الحساب,track_refund
+وصلكم المرتجع؟ متى ترجعون الفلوس,track_refund
+فلوس الاسترجاع للحين ما وصلت ليش التأخير,track_refund
+ابغى تحديث عن الاسترداد حقي,track_refund
+من متى وانا انتظر فلوسي ترجع، وش صاير؟,track_refund
+تم استلام المرتجع بس الفلوس ما رجعت,track_refund
+شلون اتابع الاسترداد حقي؟,track_refund
+قلتولي تم الاسترداد بس البنك يقول ما وصل شي,track_refund
+الفلوس اللي استرجعتها وين راحت؟,track_refund
+متى يوصلني المبلغ اللي طلبت استرداده؟,track_refund
+لي شهر انتظر الاسترداد!!,track_refund
+حالة الاسترجاع مكتوب قيد المعالجة من زمان,track_refund
+بغيت اعرف فلوسي المسترجعة متى توصل,track_refund
+سويت طلب استرجاع امس، كم يوم ياخذ؟,track_refund
+الاسترداد ما وصل لمحفظتي للحين,track_refund
+ابغا اتابع طلب الاسترجاع رقم ٤٥٦٧,track_refund
+ليه فلوسي المسترجعة ما نزلت للحين؟,track_refund
+المبلغ اللي رجعتوه راح لأي حساب؟,track_refund
+ممكن تشيكون على استرداد طلبي؟,track_refund
+استرجعت الطلب بس الفلوس ما شفتها,track_refund
+وينها فلوسي اللي قلتوا بترجعونها؟,track_refund
+البطاقة ترفض كل ما ادفع,payment_issue
+الدفع ما يمشي معي من التطبيق,payment_issue
+انسحب المبلغ مرتين على نفس الطلب,payment_issue
+ابل باي ما يشتغل عندكم,payment_issue
+كل ما احط بيانات البطاقة يقول العملية فشلت,payment_issue
+البنك خصم المبلغ والتطبيق يقول الدفع ما تم,payment_issue
+صار خطأ وقت الدفع والفلوس راحت,payment_issue
+الدفع معلق وما ادري انخصم ولا لا,payment_issue
+ليه البطاقة مرفوضة وهي شغالة بمحلات ثانية؟,payment_issue
+حاولت تمارا وما زبط معي,payment_issue
+الصفحة علقت وقت الدفع وانخصم المبلغ,payment_issue
+خصمتو علي مبلغ اكثر من سعر الطلب,payment_issue
+ما يجيني كود التحقق عشان اكمل الدفع,payment_issue
+الحساب فيه فلوس بس الدفع يتعطل,payment_issue
+فيه مشكلة بالدفع ما قدرت اكمل الطلب,payment_issue
+انسحب من حسابي مبلغ غريب منكم,payment_issue
+بطاقة الراجحي ما تنقبل عندكم,payment_issue
+دفعت والطلب للحين يقول بانتظار الدفع,payment_issue
+ليش تنخصم الفلوس مرتين كل ما اطلب؟,payment_issue
+جربت كذا بطاقة وكلها ترفض,payment_issue
+اختار الدفع وتطلع لي رسالة خطأ غريبة,payment_issue
+التحويل ما تم والمبلغ انخصم,payment_issue
+دفعت بالفيزا ورجع لي خطأ بس الفلوس طارت,payment_issue
+ما اقدر ادفع، الزر ما يضغط,payment_issue
+عطوني حل الدفع ما يكمل معي,payment_issue
+السستم يرفض بطاقتي من امس,payment_issue
+تأكيد الدفع ما يوصل والمبلغ راح من الحساب,payment_issue
+ابي حل لمشكلة الدفع عندكم ضروري,payment_issue
+يطلع لي فشلت العملية وانا متأكد من البيانات,payment_issue
+دفعت مرة وحدة وانسحب علي ثلاث مرات,payment_issue
+ابي الغي طلبي رقم ٨٨٢١,cancel_order
+كيف الغي الطلب؟ ما ابيه خلاص,cancel_order
+لو سمحت كنسلوا الطلب,cancel_order
+طلبت بالغلط ابي الغيه قبل يتجهز,cancel_order
+ابغا اكنسل الطلبية,cancel_order
+الطلب تأخر وابي الغيه,cancel_order
+الغوا الطلب حقي تكفون,cancel_order
+ما ابي الطلب لا ترسلونه,cancel_order
+ودي اكنسل اوردري,cancel_order
+ضغطت الغاء بس الطلب للحين نشط,cancel_order
+كيف اوقف الطلب قبل الشحن؟,cancel_order
+بغيت الغي الطلبية اللي سويتها اليوم,cancel_order
+ابي الغي الاوردر,cancel_order
+الطلب ما عاد له لزمة كنسلوه,cancel_order
+شلون الغي الطلب؟,cancel_order
+طلبت نفس الشي مرتين ابي الغي وحدة منهم,cancel_order
+الطلب لا تشحنونه ابي الغيه,cancel_order
+تكفون وقفوا الطلب ما ابيه,cancel_order
+وين خيار الالغاء؟ ابي الغي طلبي,cancel_order
+لقيته ارخص بمكان ثاني ابي الغي الطلب,cancel_order
+الطلبية وينها؟ لها عشرة ايام,track_order
+متى يوصلني الطلب رقم ٣٣٤٥؟,track_order
+الشحنة للحين ما تحركت,track_order
+ابي اعرف طلبي وين وصل,track_order
+المندوب متى بيجي؟,track_order
+الطلب مكتوب قيد التوصيل من ثلاث ايام,track_order
+ما وصلني اي شي عن الطلب,track_order
+عطوني رقم التتبع حق الشحنة,track_order
+طلبي تأخر مره وين صار؟,track_order
+الطلب طلع من المستودع ولا للحين؟,track_order
+شلون اعرف الطلبية وين وصلت,track_order
+الطلب حقي ضايع؟ ما جاني,track_order
+قالوا بيوصل امس وما وصل,track_order
+وين الشحنة حقتي؟,track_order
+ممكن تشوفون طلبي وين؟,track_order
+اليوم آخر موعد للتوصيل وما وصل شي,track_order
+بغيت اعرف متى توصل الطلبية,track_order
+حالة الطلب ما تغيرت من فترة,track_order
+المندوب ما رد علي ووين الطلب؟,track_order
+طلبيتي وصلت الرياض ولا لا؟,track_order
+وش آخر اخبار طلبي؟,track_order
+التتبع ما يتحدث وش السالفة,track_order
+طلبي اللي طلبته الخميس متى يجي؟,track_order
+كم باقي ويوصل الطلب؟,track_order
+الطلب طول وايد وين وصل؟,track_order
+وصلت رسالة انه بالطريق بس ما جا,track_order
+ابي اعرف موقع الشحنة الحين,track_order
+شحنتي متأخرة طمنوني وينها,track_order
+رقم التتبع ما يطلع شي,track_order
+الطلب ما وصلني للحين وش الوضع,track_order
+نسيت الرقم السري,recover_password
+الباسوورد راح من بالي كيف ارجعه,recover_password
+ابي اغير كلمة السر لاني نسيتها,recover_password
+كيف استرجع حسابي؟ الباس غلط,recover_password
+رمز الاستعادة ما يوصلني على الجوال,recover_password
+نسيت الباسورد وايميلي القديم مو عندي,recover_password
+ابغا اعيد تعيين كلمة المرور,recover_password
+مقفل حسابي من كثر ما حاولت، ناسي كلمة السر,recover_password
+شلون ارجع كلمة السر؟,recover_password
+نسيت الرمز السري حق التطبيق,recover_password
+ابي باسوورد جديد ما اتذكر القديم,recover_password
+ضغطت نسيت كلمة المرور وما صار شي,recover_password
+بغيت ادخل حسابي بس ناسية الباسورد,recover_password
+كيف اسوي ريست للباسوورد؟,recover_password
+الرمز المؤقت ما وصلني عشان اغير الباس,recover_password
+ابي استرجع كلمة المرور حق حسابي,recover_password
+ناسي الباس ولا عارف ادخل,recover_password
+ساعدوني ارجع حسابي نسيت الباس,recover_password
+كلمة المرور ما ادري وش هي,recover_password
+ابغى رمز جديد للدخول نسيت القديم,recover_password
+ابي اعدل عنوان الطلب,change_shipping_address
+العنوان غلط تكفون غيروه,change_shipping_address
+بدلوا الحي في العنوان لحي ثاني,change_shipping_address
+كيف اغير موقع التوصيل للطلب؟,change_shipping_address
+ابي الطلب يوصل لبيت اهلي بدال بيتي,change_shipping_address
+حطيت رقم الشقة غلط عدلوه,change_shipping_address
+ابغى انقل التوصيل لجدة بدل الرياض,change_shipping_address
+الموقع في الطلب مو صحيح ابي اصلحه,change_shipping_address
+ممكن ترسلون الطلب لعنوان صديقتي؟,change_shipping_address
+غيروا الموقع على الخريطة للطلب الحالي,change_shipping_address
+ابي اعدل اللوكيشن قبل يطلع المندوب,change_shipping_address
+عنوان التوصيل ناقص ابي اضيف رقم المبنى,change_shipping_address
+شلون اغير العنوان بعد ما طلبت؟,change_shipping_address
+لا توصلون للعنوان هذا، عندي عنوان ثاني,change_shipping_address
+ابي اغير المدينة في عنوان الشحن,change_shipping_address
+حولوا الطلب لاستراحتنا بدل البيت,change_shipping_address
+بغيت اعدل اسم الشارع بالعنوان,change_shipping_address
+ممكن اغير العنوان والطلب بالطريق؟,change_shipping_address
+العنوان مكتوب غلط بالطلب,change_shipping_address
+ابغا التوصيل يكون على عنوان ثاني,change_shipping_address
+تعاملكم سيء وما احد يهتم,complaint
+ابي اقدم شكوى على المندوب,complaint
+المندوب كان قليل ادب,complaint
+اسوأ تجربة شراء مريتها,complaint
+كلمت الدعم ثلاث مرات وما حلوا شي,complaint
+ابي اشتكي على تأخير الخدمة,complaint
+خدمتكم صايرة سيئة مره,complaint
+الموظف قفل الخط بوجهي,complaint
+وين الاحترام للعميل؟,complaint
+ابي ارفع شكوى رسمية,complaint
+تكررت المشكلة وما فيه حل، هذا مو مقبول,complaint
+المنتج تقليد مو اصلي وهذا غش,complaint
+ما راح اشتري منكم مره ثانية,complaint
+الطلب جاني ناقص وما احد عطاني اهتمام,complaint
+تعامل الموظفين معي ما يليق,complaint
+ابي اوصل شكواي للمدير,complaint
+كل مرة نفس المشاكل وانتم ولا كأنكم هنا,complaint
+ردودكم بطيئة ومستفزة,complaint
+حسبي الله، ضيعتوا وقتي,complaint
+خدمة ما تستاهل ريال,complaint
