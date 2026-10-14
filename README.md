@@ -86,7 +86,7 @@ customer message
 | Field extraction | Regex | Order IDs have a fixed pattern, so no model is needed |
 | Generation LLM | `nvidia/nemotron-3-ultra-550b-a55b:free` (OpenRouter) | Free, strong Arabic output |
 | Judge LLM | `dots-studio/dots-3-note-preview:free` (OpenRouter) | A **different model family** from the generator, to avoid self-grading |
-| Fine-tuning | Not in the main pipeline (bonus) | Embeddings + LR already reach 0.79 with very little Gulf data |
+| Fine-tuning | DistilmBERT fine-tuned and compared (see 5.6) | Did not beat e5 + LR on Gulf, so not used in the main pipeline |
 
 ---
 
@@ -150,7 +150,20 @@ Adding only **147 Gulf sentences** raised Gulf F1 from 0.27 to **0.79** without 
 | Grounded | 50% | −0.05 |
 
 The judge was **not reliable**: it was too lenient on "answers" and too strict on "grounded". Part of this was my fault: the judge prompt said "no promises of actions" while the system prompt allows "a colleague will follow up", so the judge marked 14 of those replies as ungrounded. **Lesson:** an LLM judge must be checked against human labels before it can be trusted.
+### 5.6 Fine-tuning
 
+Notebook: `fine_tuning.ipynb` (Colab, T4 GPU)
+
+I fine-tuned `distilbert-base-multilingual-cased` (the model from Lab 3.2) on the same data: course English tickets + the 147 Gulf sentences (repeated 10x, because Gulf data is very small compared to English). 4 epochs, learning rate 5e-5. Same validation and test sets as before.
+
+| Model | Gulf test | Gulf val | EN test |
+|---|---|---|---|
+| **e5 + LR + Gulf (main pipeline)** | **0.791** | **0.734** | 0.995 |
+| DistilmBERT fine-tuned + Gulf | 0.729 | 0.712 | 0.996 |
+
+**Result:** fine-tuning did **not** beat e5 + LR on Gulf Arabic (on validation or test), and English stayed the same. With only 147 Gulf sentences, a strong pretrained embedding model plus a simple classifier works better than fine-tuning a full model. e5 + LR is also faster and runs on CPU, so it stays the main pipeline.
+
+---
 ---
 ## 6. Error Analysis
 
@@ -230,7 +243,6 @@ Confidence (0.38) is above τ, so the ticket is handled automatically and the LL
 
 ## 10. Next Steps
 
-- Fine-tune a multilingual model on Gulf data (bonus)
 - Collect real (anonymized) Gulf tickets to replace generated data
 - Support multi-intent tickets
 - Improve retrieval so it doesn't depend fully on the classifier
