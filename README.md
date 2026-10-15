@@ -222,11 +222,9 @@ Confidence (0.38) is above τ, so the ticket is handled automatically and the LL
 ## 8. How to Run
 
 1. Open `ticket_assistant.ipynb` in Google Colab (CPU is enough).
-2. Put the files from `data/` in Google Drive under `MyDrive/ticket_assistant/`.
-3. Add your OpenRouter key in **Colab → Secrets (🔑)** as `OPENROUTER_API_KEY`. **Never write the key in the code.**
-4. **Runtime → Run all.** Cells that call the API skip work whose results are already saved, so re-running does not use up the free quota (50 requests/day).
-5. The last cell launches the Gradio demo with a public link.
-
+2. **Runtime → Run all.** The notebook clones this repo and loads the data and saved results from the `data/` folder.
+3. (Optional) To generate new replies with the LLM, add an OpenRouter key in **Colab → Secrets (🔑)** as `OPENROUTER_API_KEY`.
+4. The last cell launches the Gradio demo with a public link.
 ---
 
 ## 9. Ethics & Limitations
